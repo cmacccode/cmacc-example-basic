@@ -1,0 +1,26 @@
+// Replacing party 1 and clause 2 and 3 by clause 4 and 5
+
+$ party1 = [../ID/Marc_Dangeard.cmacc]
+
+$ contentDraft4 = [../Form/draft4.cmacc]
+
+$ contentDraft4.contentDraft3.party1 = party1
+
+$ contentDraft = contentDraft4.contentDraft3.contentDraft2.contentDraft1
+
+$ misc = [../Form/general_clauses.cmacc]
+
+{{contentDraft.intro}}
+
+ 1. {{contentDraft.who}}
+
+ 2. {{contentDraft.what}}
+
+ 3. {{misc.clause4}}
+ 
+ 4. {{misc.clause5}}
+
+ {{contentDraft.closing}}
+
+
+ 

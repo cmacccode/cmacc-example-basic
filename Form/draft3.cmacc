@@ -1,0 +1,10 @@
+// Changing the name of party1 in draft2
+
+$ party1 = [../ID/James_Hazard.cmacc]
+
+$ contentDraft2 = [../Form/draft2.cmacc]
+$ contentDraft2.contentDraft1.party1 = party1
+
+// Document
+
+{{contentDraft2}}

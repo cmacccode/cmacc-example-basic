@@ -1,0 +1,10 @@
+// Changing the name of party2
+
+$ party2 = [../ID/Willem_Veelenturf.cmacc]
+
+$ contentDraft1 = [../Form/draft1.cmacc]
+$ contentDraft1.party2 = party2
+
+// Document
+
+{{contentDraft1}}

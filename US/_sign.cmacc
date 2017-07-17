@@ -1,0 +1,19 @@
+$ role = "Role"
+
+$ person = [../ID/_individual.cmacc]
+
+$ signPlace = "Place"
+
+$ signDate = "Date"
+
+// Document
+
+Role: {{role}}
+
+Name: {{person.fullName}}  
+
+Date: {{signDate}}
+
+Place: {{signPlace}}
+
+
