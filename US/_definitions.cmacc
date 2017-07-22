@@ -1,0 +1,5 @@
+// Definitions
+
+$ party = [./_party.cmacc]
+
+{{party}}
